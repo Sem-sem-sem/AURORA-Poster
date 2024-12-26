@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "NAMU-1400";
+    src: url("../NAMU/NAMU-1400.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1600";
+    src: url("../NAMU/NAMU-1600.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1750";
+    src: url("../NAMU/NAMU-1750.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1850";
+    src: url("../NAMU/NAMU-1850.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1910";
+    src: url("../NAMU/NAMU-1910.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1930";
+    src: url("../NAMU/NAMU-1930.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1960";
+    src: url("../NAMU/NAMU-1960.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-1990";
+    src: url("../NAMU/NAMU-1990.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NAMU-Pro";
+    src: url("../NAMU/NAMU-Pro.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.NAMU-1400 {
+    font-family: "NAMU-1400";
+}
+
+.NAMU-1600 {
+    font-family: "NAMU-1600";
+}
+
+.NAMU-1750 {
+    font-family: "NAMU-1750";
+}
+
+.NAMU-1850 {
+    font-family: "NAMU-1850";
+}
+
+.NAMU-1910 {
+    font-family: "NAMU-1910";
+}
+
+.NAMU-1930 {
+    font-family: "NAMU-1930";
+}
+
+.NAMU-1960 {
+    font-family: "NAMU-1960";
+}
+
+.NAMU-1990 {
+    font-family: "NAMU-1990";
+}
+
+.NAMU-Pro {
+    font-family: "NAMU-Pro";
+}

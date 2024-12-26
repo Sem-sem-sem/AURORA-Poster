@@ -1,0 +1,253 @@
+body{ 
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+.text_fir{
+width: 100vw;
+height: 180vw;
+position: relative;
+background-image: url("../img/gif1.gif");
+
+margin-top: 0%;
+background-size: 100%;
+object-fit: cover;
+object-position: 0;
+background-repeat: no-repeat;
+}
+
+.first_p{
+    font-family:"NAMU-1750";
+    color: white;
+    font-size: 13vw;
+}
+
+
+.first_div{
+    font-family: "NAMU";
+    font-style: normal;
+    position: absolute;
+    animation: first 5s linear infinite;
+}
+@keyframes first {
+    0%{right: 44%;}
+    50%{ right: 1%}
+    100%{right: 44%;}
+}
+
+.second_div{
+    position: absolute;
+    margin-top: 12vw;
+    animation: second 3s linear infinite;
+    animation-delay: 3s;
+}
+@keyframes second {
+    0%{right: 26%;}
+    50%{ right: 1%}
+    100%{right: 26%;}
+}
+
+.third_div{
+    position: absolute;
+    margin-top: 22vw;
+    animation: third 5s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes third {
+    0%{right: 40%;}
+    50%{ right: 1%}
+    100%{right: 40%;}
+}
+
+.fourth_div{
+    position: absolute;
+    margin-top: 32vw;
+    animation: fourth 4s linear infinite;
+    animation-delay: 2s;
+}
+@keyframes fourth {
+    0%{right: 43%;}
+    50%{ right: 1%}
+    100%{right: 43%;}
+}
+
+.sect_sec{
+    position: relative;
+    margin-top: -135vw;
+    width: 100%;
+    overflow: hidden;
+    height: 60vw;
+}
+
+
+.foto_first{
+position: absolute;
+margin-top: -4vw;
+width: 100%;
+animation: ffoto 6s linear infinite ;
+}
+
+@keyframes ffoto {
+    0%{ top: -100%}
+    30%{ top: 10%}
+    60%{ top: 10%}
+    90%{ top: 10%}
+    100%{ top: 120%}  
+}
+
+.text_sec {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+.second_p{
+    position: absolute;
+    font-family:"NAMU-1750";
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    font-size: 3vw;
+    margin-top: 3vw;
+    width: 100%;
+    animation: secondp 5s linear infinite;
+}
+
+@keyframes secondp {
+    0% {left: 100%;} 
+    100%{left: -50%;}
+
+}
+
+.sec_text_anima{
+    width: 100%;
+    height: 20vw;
+    position: relative;
+    overflow-x: hidden;
+}
+.third_p{
+    margin-top: 6vw;
+    position: absolute;
+    font-family:"NAMU-1750";
+    color: rgb(255, 255, 255);
+    /* overflow: hidden; */
+    white-space: nowrap;
+    font-size: 3vw;
+    animation: thirdp 8s linear infinite;
+    animation-play-state: running;
+}
+@keyframes thirdp {
+    0% {right: 100%;} 
+    100%{right: -50%;}
+}
+.third_p:hover{
+    animation-play-state: paused;
+}
+
+.third_p2{
+    margin-top: 3vw;
+    position: absolute;
+    font-family:"NAMU-1750";
+    color: rgb(255, 255, 255);
+    /* overflow: hidden; */
+    white-space: nowrap;
+    font-size: 3vw;
+    animation: thirdp2 8s linear infinite;
+    animation-play-state: running;
+}
+@keyframes thirdp2 {
+    0% {left: 100%;} 
+    100%{left: -50%;}
+}
+.third_p2:hover{
+    animation-play-state: paused;
+}
+
+.third_p3{
+    margin-top: 9vw;
+    position: absolute;
+    font-family:"NAMU-1750";
+    color: rgb(255, 255, 255);
+    /* overflow: hidden; */
+    white-space: nowrap;
+    font-size: 3vw;
+    animation: thirdp2 8s linear infinite;
+    animation-play-state: running;
+}
+@keyframes thirdp3 {
+    0% {left: 100%;} 
+    100%{left: -50%;}
+}
+.third_p3:hover{
+    animation-play-state: paused;
+}
+
+.foto_third{
+    position: absolute;
+    width: 100vw;
+    margin-top: 70vw;
+}
+
+.secfirst_div{
+    font-family: "NAMU";
+    font-style: normal;
+    position: absolute;
+    animation: first 5s linear infinite; 
+    margin-top: 51vw;
+}
+
+.secsecond_div{
+    font-family: "NAMU";
+    font-style: normal;
+    position: absolute;
+margin-top: 61vw;
+}
+
+.secthird_div{
+    position: absolute;
+    margin-top: 12vw;
+    animation: second 3s linear infinite;
+    animation-delay: 3s;
+    margin-top: 71vw;
+}
+
+.foto2{
+    width: 100vw;
+    height: 37vw;
+    margin-top: 120vw;
+    position: absolute;
+    background-size: 400% 100%;
+    background: url("../img/foto2.png");
+    animation: spin 2s steps(4) infinite;
+}
+
+@keyframes spin{
+    0%{ background-position: 0% top;}
+    100%{ background-position: 400% top;}
+}
+
+
+.div_logo {
+        width: 100vw;
+        height: 12vw;
+        margin-top: 175vw;
+        /* в адаптиве вероятно надо будет изменить   height: 12vw;
+        margin-top: 200vw; на другие */
+        position: relative;
+        overflow-x: hidden;
+}
+.logohse{
+position: absolute;
+width: 97vw;
+height: 12vw;
+background-repeat: no-repeat;
+background-size: 10%;
+object-fit: cover;
+margin-left: 2vw;
+background: url("../img/logo.svg");
+animation: logo 15s linear infinite;
+
+}
+@keyframes logo {
+0% {left: 100%; top:0 } 
+50%{left: -30%; top:0}
+100%{left: 100%; top:0}
+}
